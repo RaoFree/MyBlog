@@ -20,7 +20,7 @@ emcc -v
 ```
 
 输出如下则环境准备成功
-[image:711A9A6F-B37C-4D1A-8E47-863375E59550-828-0000006ABFF6414B/1.png]
+{% asset_img 1.png This is 1.png %}
 
 
 # 二、C++程序准备
@@ -44,21 +44,21 @@ int main() {
 emcc hello.cpp -s WASM=1 -o hello.html
 ```
 
-* -如需编译为WebAssembly（.wasm文件），则需指定 -s WASM=1 参数；无参则默认编译为asm.js（Javascript代码）
+* 如需编译为WebAssembly（.wasm文件），则需指定 -s WASM=1 参数；无参则默认编译为asm.js（Javascript代码）
 
 编译完成后，该目录将新增如下文件：
-[image:18BBAF73-73B4-46A2-AE57-E2EC7239AB39-828-0000007197EEEDD6/2.png]
+{% asset_img 2.png This is 2.png %}
 
 # 四、启动http的web服务，使html运行其上
 ```
 emrun —no_browser —port 8080 C:\Users\rao\source\repos\hello\hello\hello.html
 ```
  
-* -参数需指定html文件全路径
+* 参数需指定html文件全路径
 
 服务启动成功页面：
-[image:EE6D5FF8-AD2E-4482-9584-77B478B78D1A-828-000000AEC47B5244/3.png]
+{% asset_img 3.png This is 3.png %}
 
 # 四、访问网页
 访问 http://localhost:8080/hello.html ，结果如下，即成功在Web端运行C/C++程序
-[image:FC164BD5-6BC3-466F-B786-98E7192BBE4F-828-000000A9FA4DF690/4.png]
+{% asset_img 4.png This is 4.png %}
