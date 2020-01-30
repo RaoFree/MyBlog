@@ -15,6 +15,7 @@ uname -r
 ```
 yum -y install docker-io
 ```
+<!--more-->
 [image:60F221DD-4E71-4405-9C58-73F2C94C124F-16891-00009B7C48CB6CE8/6EB39140-C812-4898-92E5-DDD915B509C7.png]
  
 ### 3.启动Docker服务
@@ -32,6 +33,7 @@ curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compos
 ```
 chmod +x /usr/local/bin/docker-compose
 ```
+
  
 # 二、Docker搭建DNS服务器
 ### 1.下载andyshinn/dnsmasq镜像

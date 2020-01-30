@@ -19,6 +19,7 @@ chown userName:groupName fileName
 //递归更改目录属主属组（目录结尾无需/）
 chown -R userName:groupName dirName
 ```
+<!--more-->
  
 3. 递归更改目录权限
 ```
