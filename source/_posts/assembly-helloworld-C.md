@@ -1,4 +1,4 @@
-title: Win10下，将C++编译为WebAssembly并在Web端运行
+title: WebAssembly学习笔记（一）Win10下，将C++编译为WebAssembly并在Web端运行
 date: 2020-01-30 19:18:43
 ---
 ---

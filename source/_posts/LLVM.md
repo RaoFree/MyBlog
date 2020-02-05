@@ -1,4 +1,4 @@
-title: LLVM架构编译器学习笔记
+title: WebAssembly学习笔记（二）初步理解LLVM架构编译器
 date: 2020-02-01 20:03:43
 ---
 ---
